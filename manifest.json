@@ -1,0 +1,16 @@
+{
+  "project_name": "Credit Card Fraud Detection",
+  "version": "1.0.0",
+  "author": "AI Collaborator",
+  "runtime": "Python 3.9+",
+  "dependencies": [
+    "pyod",
+    "pandas",
+    "scikit-learn",
+    "torch",
+    "matplotlib"
+  ],
+  "description": "Anomaly detection model using PyOD AutoEncoder to identify fraudulent transactions based on reconstruction error.",
+  "dataset_source": "Kaggle Anonymized Credit Card Transactions",
+  "entry_point": "fraud_detection.py"
+}
